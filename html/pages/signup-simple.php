@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Login Simple | Front - Responsive Website Template</title>
+  <title>Slonpay | Registro usuario</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -24,6 +24,11 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- JS Vue -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -38,7 +43,7 @@
   <!-- End Skippy -->
 
   <!-- ========== MAIN ========== -->
-  <main id="content" role="main">
+  <main id="app" role="main" >
     <!-- Form -->
     <div class="d-flex align-items-center position-relative min-height-100vh--lg">
       <!-- Navbar -->
@@ -47,15 +52,15 @@
           <!-- Logo -->
           <div class="col-lg-5 col-xl-4 text-lg-center px-0">
             <a class="d-inline-block p-3 p-sm-5" href="../home/index.html" aria-label="Front">
-              <img class="d-none d-lg-inline-block" src="https://htmlstream.com/preview/front-v1.3/assets/svg/logos/logo-white.svg" alt="Logo" style="width: 140px;">
-              <img class="d-inline-block d-lg-none" src="https://htmlstream.com/preview/front-v1.3/assets/svg/logos/logo.svg" alt="Logo" style="width: 140px;">
+              <img class="d-none d-lg-inline-block" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
+              <img class="d-inline-block d-lg-none" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
             </a>
           </div>
           <!-- End Logo -->
 
           <!-- Button -->
           <div class="p-3 p-sm-5">
-            <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="../../../../../themes.getbootstrap.com/product/front-multipurpose-responsive-template/front-multipurpose-responsive-template.html" target="_blank">Buy Now</a>
+            <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="/html/pages/login-simple.php">Inicio Session</a>
           </div>
           <!-- End Button -->
         </nav>
@@ -113,7 +118,7 @@
           <!-- End Testimonials Carousel Main -->
 
           <!-- Testimonials Carousel Pagination -->
-          <div id="testimonialsNavPagination" class="js-slick-carousel u-slick u-slick--transform-off u-slick--pagination-modern mx-auto"
+          <div id="testimonialsNavPagination" class="js-slick-carousel u-slick u-slick--transform-off u-slick--pagination-modern u-slick--transform-off mx-auto"
                data-infinite="true"
                data-autoplay="true"
                data-speed="5000"
@@ -159,59 +164,74 @@
         <div class="row no-gutters">
           <div class="col-md-8 col-lg-7 col-xl-6 offset-md-2 offset-lg-2 offset-xl-3 u-space-3 u-space-0--lg">
             <!-- Form -->
-            <form class="js-validate mt-5">
+            <form class="js-validate mt-5" v-on:submit.prevent>
               <!-- Title -->
               <div class="mb-7">
-                <h2 class="h3 text-primary font-weight-normal mb-0">Welcome <span class="font-weight-bold">back</span></h2>
-                <p>Login to manage your account.</p>
+                <h1 class="h3 text-primary font-weight-normal mb-0">Registro de <span class="font-weight-bold">Usuario</span></h1>
+                <p>Complete el formulario para Registrarse.</p>
               </div>
               <!-- End Title -->
-
+              <!-- alerta mensaje -->
+              <div class="alert alert-danger" role="alert" v-show="error">
+                Los datos ingresados no son los correctos..!
+              </div>
               <!-- Input -->
               <div class="js-form-message mb-4">
-                <label class="h6 small d-block text-uppercase">Email address</label>
+                <label class="h6 small d-block text-uppercase">Correo Electronico</label>
 
                 <div class="js-focus-state input-group u-form">
                   <input type="email" class="form-control u-form__input" name="email" required
-                         placeholder="jack@walley.com"
-                         aria-label="jack@walley.com"
-                         data-msg="Please enter a valid email address."
-                         data-error-class="u-has-error"
-                         data-success-class="u-has-success">
+                    v-model="register.email"
+                    placeholder="jack@walley.com"
+                    aria-label="jack@walley.com"
+                    data-msg="Please enter a valid email address."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success">
                 </div>
               </div>
               <!-- End Input -->
 
               <!-- Input -->
               <div class="js-form-message mb-4">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="h6 small d-block text-uppercase">Password</label>
-
-                  <div class="mb-2">
-                    <a class="small u-link-muted" href="recover-account.html">Forgot Password?</a>
-                  </div>
-                </div>
+                <label class="h6 small d-block text-uppercase">Contraseña</label>
 
                 <div class="js-focus-state input-group u-form">
-                  <input type="password" class="form-control u-form__input" name="password" required
-                         placeholder="********"
-                         aria-label="********"
-                         data-msg="Your password is invalid. Please try again."
-                         data-error-class="u-has-error"
-                         data-success-class="u-has-success">
+                  <input type="password" class="form-control u-form__input" required
+                    v-model="register.password"
+                    placeholder="********"
+                    aria-label="********"
+                    data-msg="Your password is invalid. Please try again."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success">
                 </div>
               </div>
               <!-- End Input -->
 
+              <!-- Input -->
+              <div class="js-form-message mb-3">
+                <label class="h6 small d-block text-uppercase">Confirmar Contraseña</label>
+
+                <div class="js-focus-state input-group u-form">
+                  <input type="password" class="form-control u-form__input" name="confirmPassword" required
+                    v-model="register.repassword"
+                    placeholder="********"
+                    aria-label="********"
+                    data-msg="Password does not match the confirm password."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success">
+                </div>
+              </div>
+              <!-- End Input -->              
+
               <!-- Button -->
               <div class="row align-items-center mb-5">
-                <div class="col-6">
-                  <span class="small text-muted">Don't have an account?</span>
-                  <a class="small" href="signup-simple.html">Signup</a>
+                <div class="col-5 col-sm-6">
+                  <span class="small text-muted">Ya tienes una cuenta ?</span> <br>
+                  <a class="small" href="login-simple.php">Inicia Session</a>
                 </div>
 
-                <div class="col-6 text-right">
-                  <button type="submit" class="btn btn-primary u-btn-primary transition-3d-hover">Get Started</button>
+                <div class="col-7 col-sm-6 text-right">
+                  <button type="submit" class="btn btn-primary u-btn-primary transition-3d-hover" @click="send_register(register)">Registrarme</button>
                 </div>
               </div>
               <!-- End Button -->
@@ -241,14 +261,36 @@
   <script src="../../assets/js/helpers/hs.focus-state.js"></script>
   <script src="../../assets/js/components/hs.slick-carousel.js"></script>
 
+  
+
   <!-- JS Plugins Init. -->
   <script>
     $(document).on('ready', function () {
       // initialization of slick carousel
-      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
-
+      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');      
       // initialization of forms
       $.HSCore.helpers.HSFocusState.init();
+    });
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        register: {},
+        error: false
+      },
+      methods: {
+        send_register: function(register){
+          axios.post('/apiphp/register_validate.php',register).then((response) => {
+            if (response.data == 'ok') {
+              window.location.href = "/html/account/my-tasks.php";
+            }else{
+              this.error = true;
+            }
+            //console.log(response.data);
+          });
+          console.log(response.data);
+        }
+      }
     });
   </script>
 </body>

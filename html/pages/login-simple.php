@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Signup Simple | Front - Responsive Website Template</title>
+  <title>Slonpay | inicio Session</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -43,7 +44,7 @@
   <!-- End Skippy -->
 
   <!-- ========== MAIN ========== -->
-  <main id="app" role="main" >
+  <main id="app" role="main">
     <!-- Form -->
     <div class="d-flex align-items-center position-relative min-height-100vh--lg">
       <!-- Navbar -->
@@ -52,15 +53,15 @@
           <!-- Logo -->
           <div class="col-lg-5 col-xl-4 text-lg-center px-0">
             <a class="d-inline-block p-3 p-sm-5" href="../home/index.html" aria-label="Front">
-              <img class="d-none d-lg-inline-block" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
-              <img class="d-inline-block d-lg-none" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
+              <img class="d-none d-lg-inline-block" src="/assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
+              <img class="d-inline-block d-lg-none" src="https://htmlstream.com/preview/front-v1.3/assets/svg/logos/logo.svg" alt="Logo" style="width: 140px;">
             </a>
           </div>
           <!-- End Logo -->
 
           <!-- Button -->
           <div class="p-3 p-sm-5">
-            <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="../../../../../themes.getbootstrap.com/product/front-multipurpose-responsive-template/front-multipurpose-responsive-template.html" target="_blank">Buy Now</a>
+            <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="/html/pages/signup-simple.php">Registrate</a>
           </div>
           <!-- End Button -->
         </nav>
@@ -118,7 +119,7 @@
           <!-- End Testimonials Carousel Main -->
 
           <!-- Testimonials Carousel Pagination -->
-          <div id="testimonialsNavPagination" class="js-slick-carousel u-slick u-slick--transform-off u-slick--pagination-modern u-slick--transform-off mx-auto"
+          <div id="testimonialsNavPagination" class="js-slick-carousel u-slick u-slick--transform-off u-slick--pagination-modern mx-auto"
                data-infinite="true"
                data-autoplay="true"
                data-speed="5000"
@@ -164,21 +165,21 @@
         <div class="row no-gutters">
           <div class="col-md-8 col-lg-7 col-xl-6 offset-md-2 offset-lg-2 offset-xl-3 u-space-3 u-space-0--lg">
             <!-- Form -->
-            <form class="js-validate mt-5">
+            <form class="js-validate mt-5" v-on:submit.prevent>
               <!-- Title -->
               <div class="mb-7">
-                <h1 class="h3 text-primary font-weight-normal mb-0">Registro de <span class="font-weight-bold">Usuario</span></h1>
-                <p>Complete el formulario para Registrarse.</p>
+                <h2 class="h3 text-primary font-weight-normal mb-0">Inicio <span class="font-weight-bold">Session</span></h2>
+                <p>Iniciar session en tu cuenta.</p>
               </div>
               <!-- End Title -->
-
+              <div class="alert alert-danger" v-show="alert">Sucedio un error en los datos</div>
               <!-- Input -->
               <div class="js-form-message mb-4">
                 <label class="h6 small d-block text-uppercase">Correo Electronico</label>
 
                 <div class="js-focus-state input-group u-form">
                   <input type="email" class="form-control u-form__input" name="email" required
-                    v-model="register.email"
+                    v-model="login.email"
                     placeholder="jack@walley.com"
                     aria-label="jack@walley.com"
                     data-msg="Please enter a valid email address."
@@ -190,11 +191,17 @@
 
               <!-- Input -->
               <div class="js-form-message mb-4">
-                <label class="h6 small d-block text-uppercase">Contraseña</label>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="h6 small d-block text-uppercase">Contraseña</label>
+
+                  <div class="mb-2">
+                    <a class="small u-link-muted" href="recover-account.html">Forgot Password?</a>
+                  </div>
+                </div>
 
                 <div class="js-focus-state input-group u-form">
-                  <input type="password" class="form-control u-form__input" required
-                    v-model="register.password"
+                  <input type="password" class="form-control u-form__input" name="password" required
+                    v-model="login.password"
                     placeholder="********"
                     aria-label="********"
                     data-msg="Your password is invalid. Please try again."
@@ -204,47 +211,15 @@
               </div>
               <!-- End Input -->
 
-              <!-- Input -->
-              <div class="js-form-message mb-3">
-                <label class="h6 small d-block text-uppercase">Confirmar Contraseña</label>
-
-                <div class="js-focus-state input-group u-form">
-                  <input type="password" class="form-control u-form__input" name="confirmPassword" required
-                    v-model="register.repassword"
-                    placeholder="********"
-                    aria-label="********"
-                    data-msg="Password does not match the confirm password."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success">
-                </div>
-              </div>
-              <!-- End Input -->
-
-              <!-- Checkbox -->
-              <div class="js-form-message mb-5">
-                <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
-                  <input type="checkbox" class="custom-control-input" id="termsCheckbox" name="termsCheckbox" required
-                         data-msg="Please accept our Terms and Conditions."
-                         data-error-class="u-has-error"
-                         data-success-class="u-has-success">
-                  <label class="custom-control-label" for="termsCheckbox">
-                    <small>
-                      Acepto los Terminos y Condiciones
-                    </small>
-                  </label>
-                </div>
-              </div>
-              <!-- End Checkbox -->
-
               <!-- Button -->
               <div class="row align-items-center mb-5">
-                <div class="col-5 col-sm-6">
-                  <span class="small text-muted">Ya tienes una cuenta ?</span> <br>
-                  <a class="small" href="login-simple.html">Inicia Session</a>
+                <div class="col-6">
+                  <span class="small text-muted">no tienes una cuenta?</span>
+                  <a class="small" href="signup-simple.php">Registro</a>
                 </div>
 
-                <div class="col-7 col-sm-6 text-right">
-                  <button type="submit" class="btn btn-primary u-btn-primary transition-3d-hover" @click="send_register(register)">Registrarme</button>
+                <div class="col-6 text-right">
+                  <button type="submit" class="btn btn-primary u-btn-primary transition-3d-hover" @click="send_login(login)">Iniciar Session</button>
                 </div>
               </div>
               <!-- End Button -->
@@ -274,22 +249,11 @@
   <script src="../../assets/js/helpers/hs.focus-state.js"></script>
   <script src="../../assets/js/components/hs.slick-carousel.js"></script>
 
-  
-
   <!-- JS Plugins Init. -->
   <script>
     $(document).on('ready', function () {
       // initialization of slick carousel
       $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
-
-      // initialization of form validation
-      $.HSCore.components.HSValidation.init('.js-validate', {
-        rules: {
-          confirmPassword: {
-            equalTo: '#password'
-          }
-        }
-      });
 
       // initialization of forms
       $.HSCore.helpers.HSFocusState.init();
@@ -298,12 +262,21 @@
     var app = new Vue({
       el: '#app',
       data: {
-        register: {},
-        messaje: 'Hola mundo'
+        message: 'moises',
+        login: {},
+        alert: false
       },
       methods: {
-        send_register: function(register){
-          console.log(register);
+        send_login: function(login){
+          axios.post('/apiphp/login.php',login).then((response)=>{
+            if (response.data == 'ok') {
+              window.location.href = '/html/account/my-tasks.php';
+            }else{
+              this.alert = true;
+            }
+            console.log(response.data);
+          });
+          //console.log(login);
         }
       }
     });

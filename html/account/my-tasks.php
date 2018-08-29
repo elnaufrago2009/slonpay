@@ -31,7 +31,12 @@
   <link rel="stylesheet" href="../../assets/css/front.css">
 </head>
 
-<body class="u-custombox-no-scroll">
+<body class="u-custombox-no-scroll">  
+  
+  <?php 
+    session_start();
+    include '../../check_session.php';
+  ?>  
 
 
   <!-- Skippy -->
@@ -294,7 +299,9 @@
                  data-unfold-animation-out="fadeOutRight"
                  data-unfold-duration="500">
                 <span class="position-relative">
-                  <span class="u-sidebar--account__toggle-text">Natalie Curtis</span>
+                  <span class="u-sidebar--account__toggle-text">
+                    <?php  echo $_SESSION['email']; ?>
+                  </span>
                   <img class="u-sidebar--account__toggle-img" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
                   <span class="u-badge u-badge-success u-badge-pos rounded-circle">3</span>
                 </span>
@@ -312,7 +319,7 @@
         <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
           <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../home/index.html" aria-label="Front">
-            <img src="https://htmlstream.com/preview/front-v1.3/assets/svg/logos/logo.svg" alt="Logo">
+            <img src="/assets/svg/logos/logo.png" alt="Logo">
           </a>
           <!-- End Logo -->
 
@@ -1100,7 +1107,7 @@
                       <ul id="generalDropdown" class="list-inline hs-sub-menu u-header__sub-menu py-lg-3 mb-0" style="min-width: 220px;"
                           aria-labelledby="generalDropdown">
                         <li class="dropdown-item px-0">
-                          <a class="nav-link u-header__sub-menu-nav-link u-list__link px-4" href="dashboard.html">Dashboard</a>
+                          <a class="nav-link u-header__sub-menu-nav-link u-list__link px-4" href="dashboard.html">Dashboard1</a>
                         </li>
                         <li class="dropdown-item px-0">
                           <a class="nav-link u-header__sub-menu-nav-link u-list__link px-4" href="profile.html">Profile</a>
@@ -1713,9 +1720,9 @@
                   </a>
                 </li>
                 <li class="u-sidebar--account__list-item">
-                  <a class="u-sidebar--account__list-link" href="">
+                  <a class="u-sidebar--account__list-link" href="/apiphp/logout.php">
                     <span class="fa fa-exchange-alt u-sidebar--account__list-icon mr-2"></span>
-                    Activity
+                    Salir
                   </a>
                 </li>
                 <li class="u-sidebar--account__list-item">
