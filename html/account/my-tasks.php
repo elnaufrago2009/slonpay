@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>My Tasks | Front - Responsive Website Template</title>
+  <title>Slonpay | Cambios</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
