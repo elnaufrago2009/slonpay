@@ -30,6 +30,9 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
+  <!-- Recaptcha -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>
@@ -207,9 +210,15 @@
                     data-msg="Your password is invalid. Please try again."
                     data-error-class="u-has-error"
                     data-success-class="u-has-success">
-                </div>
+                </div>                
               </div>
               <!-- End Input -->
+
+              <!-- Recaptcha -->
+              <div class="input-group u-form">
+                <div class="g-recaptcha" data-sitekey="6LdnRG0UAAAAAFIDDkRYg9Kmiadm2-L00stwkgZ0"></div>                
+              </div>
+
 
               <!-- Button -->
               <div class="row align-items-center mb-5">
@@ -218,7 +227,8 @@
                   <a class="small" href="signup-simple.php">Registro</a>
                 </div>
 
-                <div class="col-6 text-right">
+                <div class="col-6 text-right ">
+                  <br>
                   <button type="submit" class="btn btn-primary u-btn-primary transition-3d-hover" @click="send_login(login)">Iniciar Session</button>
                 </div>
               </div>
