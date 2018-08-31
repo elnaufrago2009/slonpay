@@ -4533,13 +4533,13 @@ svg {
 ------------------------------------*/
 /* primary air */
 .u-icon-primary--air {
-  color: #377dff;
+  color: #3b8241;
   background: rgba(55, 125, 255, 0.1);
 }
 
 .u-icon-primary--air[href]:hover, .u-icon-primary--air[href]:focus, .u-icon-primary--air[href]:active {
   color: #fff;
-  background: #377dff;
+  background: #3b8241;
 }
 
 /* secondary air */
