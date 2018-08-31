@@ -4441,19 +4441,19 @@ svg {
 /* facebook */
 .u-icon-facebook {
   color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #3b8241;
+  border-color: #3d914e;
 }
 
 .u-icon-facebook[href]:hover {
   color: #fff;
-  background-color: #30497c;
-  border-color: #2d4373;
+  background-color: #3b8241;
+  border-color: #3b8241;
 }
 
 .u-icon-facebook.disabled, .u-icon-facebook:disabled {
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #3b8241;
+  border-color: #3d914e;
 }
 
 /* google */
@@ -6961,7 +6961,7 @@ svg {
   width: 0.9375rem;
   height: 0.9375rem;
   box-sizing: border-box;
-  background-color: #377dff;
+  background-color: #3b8241;
   border: 3px solid transparent;
   border-radius: 50%;
   -webkit-transform: scale(0.6);
@@ -6971,7 +6971,7 @@ svg {
 
 .u-slick__pagination li.slick-active span {
   background-color: transparent;
-  border-color: #377dff;
+  border-color: #3b8241;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }

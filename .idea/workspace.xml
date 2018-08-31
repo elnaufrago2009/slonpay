@@ -16,8 +16,8 @@
       <file leaf-file-name="classic-crypto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="1188" column="40" selection-start-line="1188" selection-start-column="32" selection-end-line="1188" selection-end-column="51" />
+            <state relative-caret-position="290">
+              <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -25,17 +25,17 @@
       <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4534" column="1" selection-start-line="4534" selection-start-column="1" selection-end-line="4534" selection-end-column="1" />
+            <state relative-caret-position="246">
+              <caret line="6989" column="17" lean-forward="true" selection-start-line="6989" selection-start-column="17" selection-end-line="6989" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="6672" column="1" selection-start-line="6672" selection-start-column="1" selection-end-line="6672" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,6 +54,7 @@
       <find>slick-active-right</find>
       <find>u-gradient-overlay-half-primary-v1</find>
       <find>u-icon-primary--air</find>
+      <find>u-slick__pagination</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,12 +145,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
-      <workItem from="1535728554237" duration="5840000" />
+      <workItem from="1535728554237" duration="6228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5988000" />
+    <option name="totallyTimeSpent" value="6376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -191,13 +192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124469">
-          <caret line="2438" selection-start-line="2438" selection-end-line="2438" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/font-awesome/css/fontawesome-all.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -212,17 +206,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6672" column="1" selection-start-line="6672" selection-start-column="1" selection-end-line="6672" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1188" column="40" selection-start-line="1188" selection-start-column="32" selection-end-line="1188" selection-end-column="51" />
+        <state relative-caret-position="290">
+          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4534" column="1" selection-start-line="4534" selection-start-column="1" selection-end-line="4534" selection-end-column="1" />
+        <state relative-caret-position="246">
+          <caret line="6989" column="17" lean-forward="true" selection-start-line="6989" selection-start-column="17" selection-end-line="6989" selection-end-column="17" />
         </state>
       </provider>
     </entry>
