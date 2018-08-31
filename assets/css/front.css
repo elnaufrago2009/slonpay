@@ -7359,15 +7359,15 @@ svg {
 }
 
 .u-fill-primary {
-  fill: #377dff;
+  fill: #3b8241;
 }
 
 .u-fill-primary-darker {
-  fill: #196eff;
+  fill: #3b8241;
 }
 
 .u-fill-primary-lighter {
-  fill: #19a0ff;
+  fill: #0ac98c;
 }
 
 .u-fill-success {
@@ -7485,11 +7485,11 @@ svg {
 }
 
 .u-stroke-primary {
-  stroke: #377dff;
+  stroke: #3b8241;
 }
 
 .u-stroke-primary-darker {
-  stroke: #196eff;
+  stroke: #3d914e;
 }
 
 .u-stroke-success {
