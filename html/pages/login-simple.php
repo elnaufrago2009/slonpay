@@ -214,12 +214,6 @@
               </div>
               <!-- End Input -->
 
-              <!-- Recaptcha -->
-              <div class="input-group u-form">
-                <div class="g-recaptcha" data-sitekey="6LdnRG0UAAAAAFIDDkRYg9Kmiadm2-L00stwkgZ0"></div>                
-              </div>
-
-
               <!-- Button -->
               <div class="row align-items-center mb-5">
                 <div class="col-6">

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f10e368-c5bb-4d35-af44-5a4f396f29b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home/classic-crypto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home/classic-crypto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/login-simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/login-simple.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +19,26 @@
       <file leaf-file-name="classic-crypto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="846" column="53" selection-start-line="846" selection-start-column="27" selection-end-line="846" selection-end-column="53" />
+            <state relative-caret-position="222">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="2343" column="23" selection-start-line="2343" selection-start-column="23" selection-end-line="2343" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-simple.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -32,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -46,6 +66,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>u-gradient-half-primary-v1</find>
+      <find>logo</find>
+      <find>text-primary</find>
+      <find>btn-primary</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,9 +77,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/home/classic-crypto.html" />
         <option value="$PROJECT_DIR$/assets/css/front.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/html/home/classic-crypto.html" />
+        <option value="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/html/pages/login-simple.php" />
       </list>
     </option>
   </component>
@@ -69,11 +94,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="167" />
-    <option name="y" value="70" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="201" />
+    <option name="y" value="62" />
     <option name="width" value="924" />
-    <option name="height" value="603" />
+    <option name="height" value="673" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,24 +116,13 @@
             <path>
               <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
               <item name="slonpay" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slonpay" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slonpay" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
               <item name="slonpay" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,19 +159,19 @@
       <option name="presentableId" value="Default" />
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
-      <workItem from="1535728554237" duration="1901000" />
+      <workItem from="1535728554237" duration="3715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2049000" />
+    <option name="totallyTimeSpent" value="3863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="70" width="924" height="603" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2290749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17349927" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32947975" />
@@ -185,13 +199,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="846" column="53" selection-start-line="846" selection-start-column="27" selection-end-line="846" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -203,6 +210,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="2343" column="23" selection-start-line="2343" selection-start-column="23" selection-end-line="2343" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
         </state>
       </provider>
     </entry>
