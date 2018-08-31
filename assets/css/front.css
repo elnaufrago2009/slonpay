@@ -5691,7 +5691,7 @@ svg {
   width: 3.5rem;
   height: 3.5rem;
   font-size: 1.125rem;
-  color: #377dff;
+  color: #3b8241;
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(140, 152, 164, 0.2);
@@ -5787,7 +5787,7 @@ svg {
 }
 
 .u-hero-v1__last-next {
-  color: #0049d0;
+  color: #3d914e;
 }
 
 .u-hero-v1__last-prev {
@@ -5819,8 +5819,8 @@ svg {
 }
 
 .u-info-v2.active, .u-info-v2:hover {
-  border-color: rgba(55, 125, 255, 0.3);
-  box-shadow: 0 0 35px rgba(55, 125, 255, 0.125);
+  border-color: rgba(111, 255, 140, 0.3);
+  box-shadow: 0 0 35px rgba(111, 255, 140, 0.12);
 }
 
 /*------------------------------------
@@ -5856,7 +5856,7 @@ svg {
   top: 32px;
   left: 11px;
   height: 100%;
-  border-left: 2px dashed #377dff;
+  border-left: 2px dashed #3d914e;
   content: "";
 }
 

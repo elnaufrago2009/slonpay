@@ -16,8 +16,8 @@
       <file leaf-file-name="classic-crypto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+            <state relative-caret-position="195">
+              <caret line="838" column="36" selection-start-line="838" selection-start-column="27" selection-end-line="838" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="6989" column="17" lean-forward="true" selection-start-line="6989" selection-start-column="17" selection-end-line="6989" selection-end-column="17" />
+            <state relative-caret-position="-278">
+              <caret line="5823" column="1" lean-forward="true" selection-start-line="5823" selection-start-column="1" selection-end-line="5823" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,6 +55,7 @@
       <find>u-gradient-overlay-half-primary-v1</find>
       <find>u-icon-primary--air</find>
       <find>u-slick__pagination</find>
+      <find>u-go-to-modern</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,12 +146,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
-      <workItem from="1535728554237" duration="6228000" />
+      <workItem from="1535728554237" duration="6398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6376000" />
+    <option name="totallyTimeSpent" value="6546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -215,15 +216,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        <state relative-caret-position="195">
+          <caret line="838" column="36" selection-start-line="838" selection-start-column="27" selection-end-line="838" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="6989" column="17" lean-forward="true" selection-start-line="6989" selection-start-column="17" selection-end-line="6989" selection-end-column="17" />
+        <state relative-caret-position="-278">
+          <caret line="5823" column="1" lean-forward="true" selection-start-line="5823" selection-start-column="1" selection-end-line="5823" selection-end-column="1" />
         </state>
       </provider>
     </entry>
