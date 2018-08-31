@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f10e368-c5bb-4d35-af44-5a4f396f29b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/assets/css/front.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/front.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +17,7 @@
         <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="128" column="73" selection-start-line="128" selection-start-column="73" selection-end-line="128" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-simple.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
+              <caret line="1150" column="39" selection-start-line="1150" selection-start-column="16" selection-end-line="1150" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -35,8 +25,8 @@
       <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="7486" column="1" selection-start-line="7486" selection-start-column="1" selection-end-line="7486" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="7319" column="42" lean-forward="true" selection-start-line="7319" selection-start-column="42" selection-end-line="7319" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -61,6 +51,8 @@
       <find>fa-arrow-down</find>
       <find>w-80 mx-auto</find>
       <find>class</find>
+      <find>slick-active-right</find>
+      <find>u-gradient-overlay-half-primary-v1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,12 +143,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
-      <workItem from="1535728554237" duration="4449000" />
+      <workItem from="1535728554237" duration="5312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4597000" />
+    <option name="totallyTimeSpent" value="5460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -222,14 +214,14 @@
     <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="128" column="73" selection-start-line="128" selection-start-column="73" selection-end-line="128" selection-end-column="73" />
+          <caret line="1150" column="39" selection-start-line="1150" selection-start-column="16" selection-end-line="1150" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="7486" column="1" selection-start-line="7486" selection-start-column="1" selection-end-line="7486" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="7319" column="42" lean-forward="true" selection-start-line="7319" selection-start-column="42" selection-end-line="7319" selection-end-column="42" />
         </state>
       </provider>
     </entry>
