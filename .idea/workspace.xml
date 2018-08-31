@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f10e368-c5bb-4d35-af44-5a4f396f29b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiphp/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/apiphp/conn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/front.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/front.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/logos/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/logos/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="front.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/front.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="7245" column="63" selection-start-line="7245" selection-start-column="63" selection-end-line="7245" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -50,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/html/home/classic-crypto.html" />
         <option value="$PROJECT_DIR$/assets/css/front.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -62,7 +69,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="167" />
     <option name="y" value="70" />
     <option name="width" value="924" />
@@ -138,15 +145,15 @@
       <option name="presentableId" value="Default" />
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
-      <workItem from="1535728554237" duration="1851000" />
+      <workItem from="1535728554237" duration="1901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1999000" />
+    <option name="totallyTimeSpent" value="2049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="70" width="924" height="603" extended-state="1" />
+    <frame x="167" y="70" width="924" height="603" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
@@ -189,6 +196,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="7245" column="63" selection-start-line="7245" selection-start-column="63" selection-end-line="7245" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
