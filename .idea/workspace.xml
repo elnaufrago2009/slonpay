@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f10e368-c5bb-4d35-af44-5a4f396f29b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sticky-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sticky-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/home/classic-crypto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home/classic-crypto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/login-simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/login-simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/signup-simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/signup-simple.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classic-crypto.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classic-crypto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/home/classic-crypto.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
               <caret line="1247" column="20" selection-start-line="1247" selection-start-column="20" selection-end-line="1247" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup-simple.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pages/signup-simple.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-simple.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="57" column="85" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -61,7 +78,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>u-gradient-half-primary-v1</find>
-      <find>logo</find>
       <find>text-primary</find>
       <find>btn-primary</find>
       <find>fa-arrow-down</find>
@@ -76,6 +92,8 @@
       <find>app-development-flat-concept-illustration</find>
       <find>&lt;img src=&quot;/assets/svg/flat-icons/app-development-flat-concept-illustration.svg&quot; alt=&quot;SVG Illustration&quot;&gt;</find>
       <find>business-analysis-flat-concept-illustration</find>
+      <find>logo-white.png</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,7 +103,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/html/pages/login-simple.php" />
         <option value="$PROJECT_DIR$/assets/css/front.css" />
         <option value="$PROJECT_DIR$/assets/css/sticky-footer.css" />
         <option value="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" />
@@ -94,6 +111,8 @@
         <option value="$PROJECT_DIR$/borrar.css" />
         <option value="$PROJECT_DIR$/assets/svg/flat-icons/business-analysis-flat-concept-illustration.svg" />
         <option value="$PROJECT_DIR$/html/home/classic-crypto.html" />
+        <option value="$PROJECT_DIR$/html/pages/signup-simple.php" />
+        <option value="$PROJECT_DIR$/html/pages/login-simple.php" />
       </list>
     </option>
   </component>
@@ -128,20 +147,13 @@
             <path>
               <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
               <item name="slonpay" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
               <item name="slonpay" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="slonpay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slonpay" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-              <item name="flat-icons" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,12 +192,12 @@
       <updated>1535728350825</updated>
       <workItem from="1535728352973" duration="148000" />
       <workItem from="1535728554237" duration="7180000" />
-      <workItem from="1535747959090" duration="4148000" />
+      <workItem from="1535747959090" duration="5055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11476000" />
+    <option name="totallyTimeSpent" value="12383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -258,13 +270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99484">
@@ -316,6 +321,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="1247" column="20" selection-start-line="1247" selection-start-column="20" selection-end-line="1247" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/signup-simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/login-simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="57" column="85" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
         </state>
       </provider>
     </entry>

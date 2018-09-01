@@ -51,7 +51,7 @@
         <nav class="d-flex justify-content-between align-items-center">
           <!-- Logo -->
           <div class="col-lg-5 col-xl-4 text-lg-center px-0">
-            <a class="d-inline-block p-3 p-sm-5" href="../home/index.html" aria-label="Front">
+            <a class="d-inline-block p-3 p-sm-5" href="/html/home/classic-crypto.html" aria-label="Front">
               <img class="d-none d-lg-inline-block" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
               <img class="d-inline-block d-lg-none" src="../../assets/svg/logos/logo-white.png" alt="Logo" style="width: 140px;">
             </a>
